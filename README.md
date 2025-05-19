@@ -49,12 +49,11 @@ Forge is built using a **Hybrid Modular Clean Architecture**, structured to be:
         | - Contracts           |             | - Akka persistence   |
         | - Logging (Serilog)   |             | - EF Core (SQLite)   |
         +-----------------------+             +----------------------+
-
----
+```
 
 ## 📁 Project Structure
 
-```text
+```plaintext
 src/
 ├── Api
     ├── Forge.Api               → .NET Core API project
@@ -64,3 +63,5 @@ src/
 ├── Core
     ├── Forge.Core              → Domain, Abstractions, Logging, Endpoints
     ├── Forge.Infrastructure    → EF Core, Persistence (Akka, SQLite), Services
+
+```
