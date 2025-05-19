@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35821.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Core", "src\Core\Forge.Core\Forge.Core.csproj", "{57FB8E81-624D-42C4-893D-4546CADF54A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Infrastructure", "src\Core\Forge.Infrastructure\Forge.Infrastructure.csproj", "{B1935917-C7C7-4B87-81A0-6E8FD17E4EDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E3C2FDA9-8DC7-4AE1-8C64-54DE481587FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Api", "src\Api\Forge.Api\Forge.Api.csproj", "{93FACDEA-2B4C-796B-A5E9-127593C85C89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspire", "Aspire", "{67953FFF-7B72-4D5C-9AA8-2AF3CB0641A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.AppHost", "src\Aspire\Forge.AppHost\Forge.AppHost.csproj", "{09EBED01-898B-0478-D8E1-EF9C5B91734F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.ServiceDefaults", "src\Aspire\Forge.ServiceDefaults\Forge.ServiceDefaults.csproj", "{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57FB8E81-624D-42C4-893D-4546CADF54A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FB8E81-624D-42C4-893D-4546CADF54A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FB8E81-624D-42C4-893D-4546CADF54A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FB8E81-624D-42C4-893D-4546CADF54A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1935917-C7C7-4B87-81A0-6E8FD17E4EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1935917-C7C7-4B87-81A0-6E8FD17E4EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1935917-C7C7-4B87-81A0-6E8FD17E4EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1935917-C7C7-4B87-81A0-6E8FD17E4EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93FACDEA-2B4C-796B-A5E9-127593C85C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FACDEA-2B4C-796B-A5E9-127593C85C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FACDEA-2B4C-796B-A5E9-127593C85C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FACDEA-2B4C-796B-A5E9-127593C85C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EBED01-898B-0478-D8E1-EF9C5B91734F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EBED01-898B-0478-D8E1-EF9C5B91734F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EBED01-898B-0478-D8E1-EF9C5B91734F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EBED01-898B-0478-D8E1-EF9C5B91734F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57FB8E81-624D-42C4-893D-4546CADF54A6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B1935917-C7C7-4B87-81A0-6E8FD17E4EDE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{93FACDEA-2B4C-796B-A5E9-127593C85C89} = {E3C2FDA9-8DC7-4AE1-8C64-54DE481587FA}
+		{09EBED01-898B-0478-D8E1-EF9C5B91734F} = {67953FFF-7B72-4D5C-9AA8-2AF3CB0641A8}
+		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A} = {67953FFF-7B72-4D5C-9AA8-2AF3CB0641A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62AF1F56-FD7E-4A10-85DC-EEABE7EE0C62}
+	EndGlobalSection
+EndGlobal
