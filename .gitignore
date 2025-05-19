@@ -1,0 +1,42 @@
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/VSCode/VS
+.idea/
+.vscode/
+.vs/
+*.code-workspace
+
+# Logs and diagnostics
+logs/
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Runtime & test artifacts
+TestResults/
+coverage/
+*.coverage
+
+# Secret config files
+appsettings.Local.json
+appsettings.Development.json
+
+# Ignore dev-only documentation (not part of production docs)
+/docs
+/docs/devlogs
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# Dotnet tools
+.dotnet-tools.json
