@@ -4,11 +4,6 @@ using Forge.Persistence.Common.ReadModels;
 using Forge.ScoreTracking.Messages;
 using Forge.ScoreTracking.Models;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Forge.ScoreTracking.Actors;
 

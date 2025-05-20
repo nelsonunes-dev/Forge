@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Forge.ScoreTracking.Messages;
+﻿namespace Forge.ScoreTracking.Messages;
 
 /// <summary>
 /// Request model for updating the score.

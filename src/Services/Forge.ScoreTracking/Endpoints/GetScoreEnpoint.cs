@@ -3,11 +3,6 @@ using Forge.Persistence.Common.Abstractions;
 using Forge.Persistence.Common.ReadModels;
 using Forge.ScoreTracking.Requests;
 using Forge.ScoreTracking.Responses;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Forge.ScoreTracking.Endpoints;
 
