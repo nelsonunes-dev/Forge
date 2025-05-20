@@ -1,6 +1,8 @@
-﻿namespace Forge.Persistence.Common.ReadModels;
+﻿using Forge.Persistence.Common.Abstractions;
 
-public class PlayerReadModel
+namespace Forge.Persistence.Common.ReadModels;
+
+public class PlayerReadModel : IEntity
 {
     public Guid Id { get; set; }
     public string Name { get; set; } = default!;
