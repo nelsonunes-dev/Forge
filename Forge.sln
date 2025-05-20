@@ -19,6 +19,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.AppHost", "src\Aspire
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.ServiceDefaults", "src\Aspire\Forge.ServiceDefaults\Forge.ServiceDefaults.csproj", "{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Persistence", "src\Core\Forge.Persistence\Forge.Persistence.csproj", "{25B2E258-69BE-4CE3-8613-02994C9260AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CFB1C894-9F43-4415-A500-847273055E38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MatchSimulation", "MatchSimulation", "{C14B949E-55FD-4063-A903-2AAD57C52C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.MatchSimulation", "src\Services\Forge.MatchSimulation\Forge.MatchSimulation.csproj", "{35EF0019-5B68-4783-AC37-9E74956B1BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{BAD0EA04-60C4-4C1F-91D8-DD34EB0169C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +55,14 @@ Global
 		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B2E258-69BE-4CE3-8613-02994C9260AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B2E258-69BE-4CE3-8613-02994C9260AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B2E258-69BE-4CE3-8613-02994C9260AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B2E258-69BE-4CE3-8613-02994C9260AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EF0019-5B68-4783-AC37-9E74956B1BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EF0019-5B68-4783-AC37-9E74956B1BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EF0019-5B68-4783-AC37-9E74956B1BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EF0019-5B68-4783-AC37-9E74956B1BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +73,9 @@ Global
 		{93FACDEA-2B4C-796B-A5E9-127593C85C89} = {E3C2FDA9-8DC7-4AE1-8C64-54DE481587FA}
 		{09EBED01-898B-0478-D8E1-EF9C5B91734F} = {67953FFF-7B72-4D5C-9AA8-2AF3CB0641A8}
 		{BBF5A2EF-D5F9-81F5-7FE6-C079FF73EE5A} = {67953FFF-7B72-4D5C-9AA8-2AF3CB0641A8}
+		{25B2E258-69BE-4CE3-8613-02994C9260AE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C14B949E-55FD-4063-A903-2AAD57C52C8A} = {CFB1C894-9F43-4415-A500-847273055E38}
+		{35EF0019-5B68-4783-AC37-9E74956B1BBA} = {C14B949E-55FD-4063-A903-2AAD57C52C8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62AF1F56-FD7E-4A10-85DC-EEABE7EE0C62}

@@ -40,3 +40,7 @@ Thumbs.db
 
 # Dotnet tools
 .dotnet-tools.json
+
+# Sqlite
+forge.db*
+*.sqlite
