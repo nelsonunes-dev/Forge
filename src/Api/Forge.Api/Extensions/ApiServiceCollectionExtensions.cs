@@ -5,6 +5,7 @@ using Forge.Infrastructure.Extensions;
 using Forge.MatchSimulation;
 using Forge.Persistence.Extensions;
 using Forge.Persistence.Sqlite.Extensions;
+using Forge.ScoreTracking;
 
 namespace Forge.Api.Extensions;
 
@@ -29,6 +30,7 @@ public static class ApiServiceCollectionExtensions
                 .AddForgeSqlitePersistence(configuration);
 
         services.AddForgeMatchSimulation(configuration);
+        services.AddForgeScoreTracking(configuration);
 
         // Register all modules
         services.RegisterModules(configuration);

@@ -32,6 +32,7 @@
     <ProjectReference Include="..\..\Core\Forge.Infrastructure\Forge.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Core\Forge.Persistence\Forge.Persistence.csproj" />
     <ProjectReference Include="..\..\Services\Forge.MatchSimulation\Forge.MatchSimulation.csproj" />
+    <ProjectReference Include="..\..\Services\Forge.ScoreTracking\Forge.ScoreTracking.csproj" />
   </ItemGroup>
 
 </Project>
