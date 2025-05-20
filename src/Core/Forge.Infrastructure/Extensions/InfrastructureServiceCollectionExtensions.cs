@@ -2,12 +2,12 @@
 using Forge.Infrastructure.Logging;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Forge.Infrastructure;
+namespace Forge.Infrastructure.Extensions;
 
 /// <summary>
 /// Dependency injection extensions for the Forge.Infrastructure library.
 /// </summary>
-public static class DependencyInjection
+public static class InfrastructureServiceCollectionExtensions
 {
     /// <summary>
     /// Registers all modules that implement IModule with the dependency injection container.
