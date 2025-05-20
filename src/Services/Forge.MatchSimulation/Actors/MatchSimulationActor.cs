@@ -1,5 +1,6 @@
 ﻿using Akka.Actor;
 using Forge.MatchSimulation.Messages;
+using Forge.ScoreTracking.Messages;
 
 namespace Forge.MatchSimulation.Actors;
 
@@ -15,13 +16,14 @@ public class MatchSimulatorActor : ReceiveActor
     {
         Receive<StartMatch>(msg =>
         {
-            Console.WriteLine($"🎮 Match started: {msg.MatchId}");
+            Console.WriteLine($"Match started: {msg.MatchId}");
+            Context.System.EventStream.Publish(new UpdateScore(msg.MatchId, 1));
             Sender.Tell(new MatchStarted(msg.MatchId));
         });
 
         Receive<StopMatch>(msg =>
         {
-            Console.WriteLine($"🛑 Match stopped: {msg.MatchId}");
+            Console.WriteLine($"Match stopped: {msg.MatchId}");
             Sender.Tell(new MatchStopped(msg.MatchId));
         });
     }

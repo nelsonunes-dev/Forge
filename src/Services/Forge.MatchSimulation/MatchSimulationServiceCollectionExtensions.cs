@@ -21,7 +21,6 @@ public static class MatchSimulationServiceCollectionExtensions
     {
         services.AddFastEndpoints(o =>
         {
-            // o.Assemblies = new[] {Assembly.GetExecutingAssembly() };
             o.SourceGeneratorDiscoveredTypes.AddRange(typeof(StartMatchEndpoint).Assembly.GetTypes());
         });
 

@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Forge.Core\Forge.Core.csproj" />
+    <ProjectReference Include="..\Forge.ScoreTracking\Forge.ScoreTracking.csproj" />
   </ItemGroup>
 
 </Project>
