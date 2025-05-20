@@ -6,8 +6,17 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Forge.MatchSimulation;
 
-public static class ServiceCollectionExtensions
+/// <summary>
+/// Extension methods for registering the Forge Match Simulation service.
+/// </summary>
+public static class MatchSimulationServiceCollectionExtensions
 {
+    /// <summary>
+    /// Registers the Forge Match Simulation service with the specified configuration.
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="configuration"></param>
+    /// <returns></returns>
     public static IServiceCollection AddForgeMatchSimulation(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddFastEndpoints(o =>

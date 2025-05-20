@@ -3,8 +3,14 @@ using Forge.MatchSimulation.Messages;
 
 namespace Forge.MatchSimulation.Actors;
 
+/// <summary>
+/// Actor for simulating match events.
+/// </summary>
 public class MatchSimulatorActor : ReceiveActor
 {
+    /// <summary>
+    /// Initializes a new instance of the <see cref="MatchSimulatorActor"/> class.
+    /// </summary>
     public MatchSimulatorActor()
     {
         Receive<StartMatch>(msg =>
